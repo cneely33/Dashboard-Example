@@ -1,0 +1,18 @@
+*[data-dash-is-loading="true"]{
+    visibility: hidden;
+}
+*[data-dash-is-loading="true"]::before{
+    content: "Loading...";
+    display: inline-block;
+    color: black;
+    visibility: visible;
+}
+
+.Select-clear-zone {
+    visibility: hidden;
+}
+
+b {
+    color: #000000;
+}
+

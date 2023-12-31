@@ -1,0 +1,44 @@
+QA Leads Count,Previous Stage Count,Percent Of Previous Stage,funnel_group,YYYYMM,stage_int_sort,Stage
+86,,100%,Cohortal Funnel,202301,0,QA
+81,86,94.2%,Cohortal Funnel,202301,1,Sales Accepted
+15,81,18.5%,Cohortal Funnel,202301,2,Meeting Booked
+7,15,46.7%,Cohortal Funnel,202301,3,SAL
+6,7,85.7%,Cohortal Funnel,202301,4,SAP
+1,6,16.7%,Cohortal Funnel,202301,5,Underwriting
+1,1,100%,Cohortal Funnel,202301,6,Offer Pending
+1,1,100%,Cohortal Funnel,202301,7,Offer Signed
+1,1,100%,Cohortal Funnel,202301,8,Closed Won
+76,,100%,Cohortal Funnel,202302,0,QA
+74,76,97.4%,Cohortal Funnel,202302,1,Sales Accepted
+27,74,36.5%,Cohortal Funnel,202302,2,Meeting Booked
+22,27,81.5%,Cohortal Funnel,202302,3,SAL
+8,22,36.4%,Cohortal Funnel,202302,4,SAP
+5,8,62.5%,Cohortal Funnel,202302,5,Underwriting
+4,5,80%,Cohortal Funnel,202302,6,Offer Pending
+3,4,75%,Cohortal Funnel,202302,7,Offer Signed
+3,3,100%,Cohortal Funnel,202302,8,Closed Won
+83,,100%,Cohortal Funnel,202303,0,QA
+79,83,95.2%,Cohortal Funnel,202303,1,Sales Accepted
+36,79,45.6%,Cohortal Funnel,202303,2,Meeting Booked
+29,36,80.6%,Cohortal Funnel,202303,3,SAL
+6,29,20.7%,Cohortal Funnel,202303,4,SAP
+4,6,66.7%,Cohortal Funnel,202303,5,Underwriting
+4,4,100%,Cohortal Funnel,202303,6,Offer Pending
+4,4,100%,Cohortal Funnel,202303,7,Offer Signed
+4,4,100%,Cohortal Funnel,202303,8,Closed Won
+74,,100%,Cohortal Funnel,202304,0,QA
+65,74,87.8%,Cohortal Funnel,202304,1,Sales Accepted
+29,65,44.6%,Cohortal Funnel,202304,2,Meeting Booked
+19,29,65.5%,Cohortal Funnel,202304,3,SAL
+2,19,10.5%,Cohortal Funnel,202304,4,SAP
+2,2,100%,Cohortal Funnel,202304,5,Underwriting
+1,2,50%,Cohortal Funnel,202304,6,Offer Pending
+319,,100%,Non-Cohortal Funnel,,0,QA
+299,319,93.7%,Non-Cohortal Funnel,,1,Sales Accepted
+107,299,35.8%,Non-Cohortal Funnel,,2,Meeting Booked
+77,107,72%,Non-Cohortal Funnel,,3,SAL
+22,77,28.6%,Non-Cohortal Funnel,,4,SAP
+12,22,54.5%,Non-Cohortal Funnel,,5,Underwriting
+10,12,83.3%,Non-Cohortal Funnel,,6,Offer Pending
+8,10,80%,Non-Cohortal Funnel,,7,Offer Signed
+8,8,100%,Non-Cohortal Funnel,,8,Closed Won
