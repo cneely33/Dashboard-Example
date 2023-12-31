@@ -1,10 +1,6 @@
 import pandas as pd
 import os
 # from app import cache
-# from mods.DBA import s3_connect
-# from mods.DBA import S3_folderpaths
-
-
 
 def load_funnel():
     curr_path = os.path.abspath(os.path.dirname(__file__))
