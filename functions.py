@@ -108,7 +108,7 @@ is_open=False,
                         ),href="https://dash.plotly.com/",style={"textDecoration": "none"},
                         ),
               dbc.Col(children=[dbc.NavbarBrand(
-                                               ' Assessment',
+                                               '',
                                               class_name="ms-2"),
                       html.Div(id='user-name', className='ms-2', children=[]),
                       html.Div(id='logout', className='ms-2', children=[])
