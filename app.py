@@ -10,7 +10,6 @@ from mods import secrets
 
 ## local imports
 from exceptions import no_data_graphs
-from mods.DBA import ProdTestEnvFunc as pt
 
 try:
     secrets.load_env_vars()
@@ -50,9 +49,9 @@ app.scripts.config.serve_locally = True
 # config
 server.config.update(
     SECRET_KEY=getenv("SECRET_KEY"),
-    SQLALCHEMY_DATABASE_URI=getenv("DATABASE_URI"),
+    # SQLALCHEMY_DATABASE_URI=getenv("DATABASE_URI"),
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://username:password@localhost/db_name'
-    SQLALCHEMY_TRACK_MODIFICATIONS=False,
+    # SQLALCHEMY_TRACK_MODIFICATIONS=False,
     #### echo out queries 
     # SQLALCHEMY_ECHO = True,
     # SQLALCHEMY_RECORD_QUERIES = True
